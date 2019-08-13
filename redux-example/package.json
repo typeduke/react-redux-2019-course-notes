@@ -1,0 +1,23 @@
+{
+  "name": "redux-example",
+  "version": "0.0.1",
+  "description": "Redux example using an analogy to an insurance company, originally authored by StephenGrider (Stephen Grider, rallycoding.com)",
+  "main": "build/app.js",
+  "scripts": {
+    "lint": "eslint src/* || exit 0",
+    "transpile": "babel src -d build",
+    "execute": "node build/app.js",
+    "all": "(eslint src/* || exit 0) && babel src -d build && node build/app.js"
+  },
+  "author": "jsfanboy (Lucas Baerenfaenger, jsfanboy.com)",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.13.0"
+  },
+  "dependencies": {
+    "redux": "^4.0.4"
+  }
+}
