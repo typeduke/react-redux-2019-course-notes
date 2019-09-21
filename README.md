@@ -14,12 +14,17 @@ I completed the course's 2017 edition entirely, within [this repository](https:/
 
 ---
 
-1. [Progress](#1-progress)
-2. [Usage](#2-usage)
+1. [Usage](#1-usage)
+2. [Progress](#2-progress)
 
 ---
 
-## 1. Progress
+## 1. Usage
+
+Navigate into the directory of interest, e.g., the `songs` directory, and do `npm install`, followed by `npm start`.
+Then, browse to http://localhost:3000/.
+
+## 2. Progress
 
 |  Done?             | Name                             | Sections         |
 |:------------------:|----------------------------------|------------------|
@@ -32,8 +37,3 @@ I completed the course's 2017 edition entirely, within [this repository](https:/
 | :white_check_mark: | [`songs`](songs)                 | Section 13       |
 
 :point_right: I am currently working my way through section 14.
-
-## 2. Usage
-
-Navigate into the directory of interest, e.g., the `songs` directory, and do `npm install`, followed by `npm start`.
-Then, browse to http://localhost:3000/.
